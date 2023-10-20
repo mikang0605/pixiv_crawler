@@ -66,7 +66,7 @@ class MainWindow(QtWidgets.QWidget):
 
     def __init__(self):
         super().__init__()
-        uic.loadUi("pixiv爬虫.ui", self)
+        uic.loadUi("pixiv_crawler.ui", self)
         self.show()
         self.pic.setValue(0)
         self.drawer.setValue(0)
